@@ -1,16 +1,18 @@
-# Docker Compose Project
+# Проект за контейнеризация с Docker Composeкато 
 
-## Components
+## Автор
 
-- Python Flask Application
-- MySQL Database
+**Деян 22208**
 
-## Start
+---
 
-docker compose build
+## Описание на проекта
 
-docker compose up
+Този проект демонстрира контейнеризация на Python уеб приложение и MySQL база данни чрез използването на Docker и Docker Compose.
 
-## Communication
+Проектът се състои от две услуги:
 
-The Flask application connects to MySQL using the Docker service name "db".
+* Python Flask приложение
+* MySQL база данни
+
+Docker Compose се използва за изграждане, конфигуриране и стартиране на всички услуги едновременно.
